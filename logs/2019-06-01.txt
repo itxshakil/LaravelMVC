@@ -1,0 +1,53 @@
+[01-Jun-2019 08:22:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 130
+[01-Jun-2019 08:22:47 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 130
+[01-Jun-2019 08:22:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method addAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\xamp\htdocs\MVC\Core\Router.php(121): Core\Controller->__call('add', Array)
+#1 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('posts/add')
+#2 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Controller.php' on line 52
+[01-Jun-2019 08:23:06 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 130
+[01-Jun-2019 08:23:14 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)'
+Stack trace: #0 C:\xamp\htdocs\MVC\Core\Model.php(27): PDO->__construct('mysql:host=loca...', 'root', 'secret')
+#1 C:\xamp\htdocs\MVC\App\Models\Post.php(29): Core\Model::getDB()
+#2 C:\xamp\htdocs\MVC\App\Controllers\Posts.php(23): App\Models\Post::getAll()
+#3 [internal function]: App\Controllers\Posts->indexAction()
+#4 C:\xamp\htdocs\MVC\Core\Controller.php(48): call_user_func_array(Array, Array)
+#5 C:\xamp\htdocs\MVC\Core\Router.php(121): Core\Controller->__call('index', Array)
+#6 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('posts/index')
+#7 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Model.php' on line 27
+[01-Jun-2019 08:23:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Post not found'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('post/index')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 127
+[01-Jun-2019 08:23:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('home')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 130
+[01-Jun-2019 08:23:34 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)'
+Stack trace: #0 C:\xamp\htdocs\MVC\Core\Model.php(27): PDO->__construct('mysql:host=loca...', 'root', 'secret')
+#1 C:\xamp\htdocs\MVC\App\Models\Post.php(29): Core\Model::getDB()
+#2 C:\xamp\htdocs\MVC\App\Controllers\Posts.php(23): App\Models\Post::getAll()
+#3 [internal function]: App\Controllers\Posts->indexAction()
+#4 C:\xamp\htdocs\MVC\Core\Controller.php(48): call_user_func_array(Array, Array)
+#5 C:\xamp\htdocs\MVC\Core\Router.php(121): Core\Controller->__call('index', Array)
+#6 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('posts/index')
+#7 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Model.php' on line 27
+[01-Jun-2019 08:25:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('posts/')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 130
+[01-Jun-2019 08:25:20 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xamp\htdocs\MVC\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xamp\htdocs\MVC\Core\Router.php' on line 130
